@@ -1689,6 +1689,17 @@ footer #content > p {
     font-size: 1.5rem;
   }
 
+  main > section:nth-child(1) > #content > div > a {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    padding: 14px 10px;
+  }
+
+  main > section:nth-child(1) > #content > div > a > img {
+    width: 24px;
+    height: 24px;
+  }
+
   main > section:nth-child(2) > #content {
     display: flex;
     flex-direction: row;
@@ -1723,6 +1734,11 @@ footer #content > p {
   main > section:nth-child(2) > #content > div:not(.separator):nth-child(7) {
     border-radius: 0 24px 24px 0;
     box-shadow: 17.5px 20px 5px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  main > section:nth-child(3) > button {
+    font-family: "Montserrat-SemiBold", sans-serif;
+    font-size: 1.5rem;
   }
 
   .separator {
