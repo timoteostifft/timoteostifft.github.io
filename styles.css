@@ -516,8 +516,10 @@ section:nth-child(4) > #content > div > div > button {
 }
 
 section:nth-child(4) > #content > div > div > button:last-child {
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: var(--green);
   border: 0;
   border-radius: 8px;
