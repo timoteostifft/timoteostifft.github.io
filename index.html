@@ -18,12 +18,12 @@
   </head>
   <body>
     <div id="cookie-modal" class="modal">
-      <div class="modal-content">
+      <div class="modal-content-cookie">
         <p>
           Nós valorizamos a sua privacidade. Este site utiliza cookies para
           oferecer a melhor experiência de navegação possível. Ao clicar em
-          "Aceitar todos os cookies", você concorda com o uso de todos os tipos
-          de cookies em nosso site.
+          "ACEITAR", você concorda com o uso de todos os tipos de cookies em
+          nosso site.
         </p>
         <button onclick="acceptCookies()">ACEITAR</button>
       </div>
@@ -51,10 +51,10 @@
             <span>+150</span>
             <span>Lojas pelo Brasil</span>
 
-            <a href="#map">
-              <span>ENCONTRE UMA LOJA</span>
+            <button id="open-modal1">
+              <span>QUERO ENCONTRAR UMA LOJA</span>
               <img src="./assets/location.svg" alt="" />
-            </a>
+            </button>
           </div>
         </div>
       </section>
@@ -126,7 +126,7 @@
             <a><img src="./assets/store.svg" alt="" /> </a>
           </div>
         </div>
-        <button id="open-modal">
+        <button id="open-modal2">
           <span>QUERO ENCONTRAR UMA LOJA</span>
           <img src="assets/arrow.svg" alt="" />
         </button>
@@ -424,28 +424,7 @@
     </footer>
     <div id="modal">
       <div id="modal-content">
-        <div>
-          <span>Estado</span>
-          <a>Cidade</a>
-          <a>Cidade</a>
-          <a>Cidade</a>
-          <span>Estado</span>
-          <a>Cidade</a>
-          <a>Cidade</a>
-          <a>Cidade</a>
-          <span>Estado</span>
-          <a>Cidade</a>
-          <a>Cidade</a>
-          <a>Cidade</a>
-          <span>Estado</span>
-          <a>Cidade</a>
-          <a>Cidade</a>
-          <a>Cidade</a>
-          <span>Estado</span>
-          <a>Cidade</a>
-          <a>Cidade</a>
-          <a>Cidade</a>
-        </div>
+        <div id="modal-items"></div>
         <button id="close-modal">
           <span>VOLTAR</span>
         </button>

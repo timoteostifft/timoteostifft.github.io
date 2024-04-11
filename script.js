@@ -19,10 +19,15 @@ for (const button of carouselButtons) {
 }
 
 const modal = document.getElementById("modal");
-const openModal = document.getElementById("open-modal");
+const openModal1 = document.getElementById("open-modal1");
+const openModal2 = document.getElementById("open-modal2");
 const closeModal = document.getElementById("close-modal");
 
-openModal.onclick = () => {
+openModal1.onclick = () => {
+  modal.style.display = "flex";
+};
+
+openModal2.onclick = () => {
   modal.style.display = "flex";
 };
 
@@ -97,3 +102,31 @@ function getCookie(name) {
   }
   return null;
 }
+
+fetch("./stores.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const states = Object.keys(data);
+
+    const items = document.getElementById("modal-items");
+
+    for (let i = 0; i < states.length; i++) {
+      const span = document.createElement("span");
+      span.textContent = states[i];
+      items.appendChild(span);
+
+      for (let j = 0; j < data[states[i]].length; j++) {
+        const city = data[states[i]][j].cidade;
+        const link = data[states[i]][j].link;
+
+        const a = document.createElement("a");
+
+        a.textContent = city;
+        a.href = "http://" + link;
+        a.style.color = "black";
+
+        items.appendChild(a);
+      }
+    }
+  })
+  .catch((error) => console.error("Erro ao consumir lojas: ", error));

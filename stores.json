@@ -1,0 +1,250 @@
+{
+  "Alagoas": [
+    { "cidade": "Arapiraca", "link": "arapiraca.munizautocenter.com.br" },
+    { "cidade": "Maceió", "link": "maceio.munizautocenter.com.br" }
+  ],
+  "Bahia": [
+    { "cidade": "Barreiras", "link": "barreiras.munizautocenter.com.br" },
+    {
+      "cidade": "Luís Eduardo Magalhães",
+      "link": "luiseduardo.munizautocenter.com.br"
+    },
+    {
+      "cidade": "Teixeira de Freitas",
+      "link": "teixeiradefreitas.munizautocenter.com.br"
+    },
+    { "cidade": "Porto Seguro", "link": "portoseguro.munizautocenter.com.br" }
+  ],
+  "Espírito Santo": [
+    { "cidade": "Vitória", "link": "vitoria.munizautocenter.com.br" }
+  ],
+  "Goiás": [
+    { "cidade": "Goiânia", "link": "goiania.munizautocenter.com.br" },
+    { "cidade": "Rio Verde", "link": "rioverde.munizautocenter.com.br" },
+    { "cidade": "Anápolis", "link": "anapolis.munizautocenter.com.br" }
+  ],
+  "Maranhão": [{ "cidade": "Balsas", "link": "balsas.munizautocenter.com.br" }],
+  "Mato Grosso": [
+    { "cidade": "Cuiabá", "link": "cuiaba.munizautocenter.com.br" },
+    { "cidade": "Sinop", "link": "sinop.munizautocenter.com.br" },
+    { "cidade": "Sorriso", "link": "sorriso.munizautocenter.com.br" }
+  ],
+  "Mato Grosso do Sul": [
+    { "cidade": "Campo Grande", "link": "campogrande.munizautocenter.com.br" },
+    { "cidade": "Dourados", "link": "dourados.munizautocenter.com.br" },
+    { "cidade": "Três Lagoas", "link": "treslagoas.munizautocenter.com.br" }
+  ],
+  "Minas Gerais": [
+    {
+      "cidade": "Belo Horizonte",
+      "link": "belohorizonte.munizautocenter.com.br"
+    },
+    { "cidade": "Ituiutaba", "link": "ituiutaba.munizautocenter.com.br" },
+    {
+      "cidade": "Montes Claros",
+      "link": "montesclaros.munizautocenter.com.br"
+    },
+    {
+      "cidade": "Patos de Minas",
+      "link": "patosdeminas.munizautocenter.com.br"
+    },
+    { "cidade": "Uberaba", "link": "uberaba.munizautocenter.com.br" },
+    { "cidade": "Uberlândia", "link": "uberlandia.munizautocenter.com.br" },
+    { "cidade": "Juiz de Fora", "link": "juizdefora.munizautocenter.com.br" }
+  ],
+  "Pará": [
+    { "cidade": "Belém", "link": "belem.munizautocenter.com.br" },
+    { "cidade": "Belém", "link": "belem-mangueirao.munizautocenter.com.br" }
+  ],
+  "Paraíba": [
+    {
+      "cidade": "Campina Grande",
+      "link": "campinagrande.munizautocenter.com.br"
+    }
+  ],
+  "Paraná": [
+    { "cidade": "Apucarana", "link": "apucarana.munizautocenter.com.br" },
+    { "cidade": "Astorga", "link": "astorga.munizautocenter.com.br" },
+    { "cidade": "Campo Mourão", "link": "campomourao.munizautocenter.com.br" },
+    { "cidade": "Cascavel", "link": "cascavel.munizautocenter.com.br" },
+    { "cidade": "Castro", "link": "castro.munizautocenter.com.br" },
+    { "cidade": "Cianorte", "link": "cianorte.munizautocenter.com.br" },
+    { "cidade": "Colombo", "link": "colombopr.munizautocenter.com.br" },
+    {
+      "cidade": "Curitiba (Boqueirão)",
+      "link": "curitiba-boqueirao.munizautocenter.com.br"
+    },
+    {
+      "cidade": "Curitiba (Av. Comendador)",
+      "link": "curitiba-comendador.munizautocenter.com.br"
+    },
+    {
+      "cidade": "Fazenda Rio Grande",
+      "link": "fazendariogrande.munizautocenter.com.br"
+    },
+    {
+      "cidade": "Francisco Beltrão",
+      "link": "franciscobeltrao.munizautocenter.com.br"
+    },
+    { "cidade": "Guarapuava", "link": "guarapuava.munizautocenter.com.br" },
+    { "cidade": "Irati", "link": "irati.munizautocenter.com.br" },
+    { "cidade": "Loanda", "link": "loanda.munizautocenter.com.br" },
+    { "cidade": "Londrina", "link": "londrina.munizautocenter.com.br" },
+    { "cidade": "Maringá", "link": "maringa-colombo.munizautocenter.com.br" },
+    { "cidade": "Maringá", "link": "maringa-colombo2.munizautocenter.com.br" },
+    { "cidade": "Paranaguá", "link": "paranagua.munizautocenter.com.br" },
+    { "cidade": "Paranavaí", "link": "paranavai.munizautocenter.com.br" },
+    { "cidade": "Pato Branco", "link": "patobranco.munizautocenter.com.br" },
+    { "cidade": "Pinhais", "link": "pinhais.munizautocenter.com.br" },
+    { "cidade": "Ponta Grossa", "link": "pontagrossa.munizautocenter.com.br" },
+    {
+      "cidade": "São José dos Pinhais",
+      "link": "saojosedospinhais.munizautocenter.com.br"
+    },
+    { "cidade": "Sarandi", "link": "sarandi.munizautocenter.com.br" },
+    {
+      "cidade": "Telemaco Borba",
+      "link": "telemacoborba.munizautocenter.com.br"
+    },
+    { "cidade": "Toledo", "link": "toledo.munizautocenter.com.br" },
+    { "cidade": "Umuarama", "link": "umuarama.munizautocenter.com.br" },
+    {
+      "cidade": "Curitiba (Kennedy)",
+      "link": "curitiba-kennedy.munizautocenter.com.br"
+    },
+    { "cidade": "Campo Largo", "link": "campolargo.munizautocenter.com.br" },
+    { "cidade": "Cafelândia", "link": "cafelandia.munizautocenter.com.br" }
+  ],
+  "Piauí": [
+    { "cidade": "Teresina", "link": "teresina.munizautocenter.com.br" }
+  ],
+  "Rio de Janeiro": [
+    { "cidade": "São Cristóvão", "link": "saocristovao.munizautocenter.com.br" }
+  ],
+  "Rio Grande do Sul": [
+    {
+      "cidade": "Bento Gonçalves",
+      "link": "bentogoncalves.munizautocenter.com.br"
+    },
+    { "cidade": "Carazinho", "link": "carazinho.munizautocenter.com.br" },
+    { "cidade": "Caxias do Sul", "link": "caxiasdosul.munizautocenter.com.br" },
+    { "cidade": "Erechim", "link": "erechim.munizautocenter.com.br" },
+    { "cidade": "Gravataí", "link": "gravatai.munizautocenter.com.br" },
+    { "cidade": "Ijuí", "link": "ijui.munizautocenter.com.br" },
+    { "cidade": "Lajeado", "link": "lajeado.munizautocenter.com.br" },
+    { "cidade": "Passo Fundo", "link": "passofundo.munizautocenter.com.br" },
+    { "cidade": "Pelotas", "link": "pelotas.munizautocenter.com.br" },
+    { "cidade": "Porto Alegre", "link": "portoalegre.munizautocenter.com.br" },
+    { "cidade": "Santa Maria", "link": "santamaria.munizautocenter.com.br" },
+    {
+      "cidade": "Novo Hamburgo",
+      "link": "novohamburgo.munizautocenter.com.br"
+    },
+    { "cidade": "Santa Rosa", "link": "santarosa.munizautocenter.com.br" }
+  ],
+  "Santa Catarina": [
+    {
+      "cidade": "Balneário Camboriú",
+      "link": "balneariocamboriu2.munizautocenter.com.br"
+    },
+    { "cidade": "Blumenau", "link": "blumenau.munizautocenter.com.br" },
+    { "cidade": "Brusque", "link": "brusque.munizautocenter.com.br" },
+    { "cidade": "Caçador", "link": "cacador.munizautocenter.com.br" },
+    {
+      "cidade": "Balneário Camboriú",
+      "link": "camboriu.munizautocenter.com.br"
+    },
+    { "cidade": "Chapecó", "link": "chapeco.munizautocenter.com.br" },
+    { "cidade": "Itajaí", "link": "itajai.munizautocenter.com.br" },
+    { "cidade": "Itapema", "link": "itapema.munizautocenter.com.br" },
+    {
+      "cidade": "Jaraguá do Sul",
+      "link": "jaraguadosul.munizautocenter.com.br"
+    },
+    { "cidade": "Joinville", "link": "joinville.munizautocenter.com.br" },
+    { "cidade": "Lages", "link": "lages.munizautocenter.com.br" },
+    { "cidade": "Navegantes", "link": "navegantes.munizautocenter.com.br" },
+    { "cidade": "Palhoça", "link": "palhoca.munizautocenter.com.br" },
+    {
+      "cidade": "São Bento do Sul",
+      "link": "saobentodosul.munizautocenter.com.br"
+    },
+    { "cidade": "São José", "link": "saojose.munizautocenter.com.br" },
+    { "cidade": "Tubarão", "link": "tubarao.munizautocenter.com.br" },
+    { "cidade": "Criciúma", "link": "criciuma.munizautocenter.com.br" }
+  ],
+  "São Paulo": [
+    { "cidade": "Assis", "link": "assis.munizautocenter.com.br" },
+    { "cidade": "Barretos", "link": "barretos.munizautocenter.com.br" },
+    { "cidade": "Bauru", "link": "bauru.munizautocenter.com.br" },
+    { "cidade": "Botucatu", "link": "botucatu.munizautocenter.com.br" },
+    {
+      "cidade": "Bragança Paulista",
+      "link": "bragancapaulista.munizautocenter.com.br"
+    },
+    { "cidade": "São Paulo", "link": "casaverde.munizautocenter.com.br" },
+    { "cidade": "Diadema", "link": "diadema.munizautocenter.com.br" },
+    { "cidade": "Guarulhos", "link": "guarulhos.munizautocenter.com.br" },
+    { "cidade": "Indaiatuba", "link": "indaiatuba.munizautocenter.com.br" },
+    { "cidade": "Itapetininga", "link": "itapetininga.munizautocenter.com.br" },
+    { "cidade": "Itapevi", "link": "itapevi.munizautocenter.com.br" },
+    { "cidade": "Itú", "link": "itu.munizautocenter.com.br" },
+    { "cidade": "Jacareí", "link": "jacarei.munizautocenter.com.br" },
+    { "cidade": "Jaú", "link": "jau.munizautocenter.com.br" },
+    { "cidade": "Lins", "link": "lins.munizautocenter.com.br" },
+    { "cidade": "Marília", "link": "marilia.munizautocenter.com.br" },
+    { "cidade": "Mauá", "link": "maua.munizautocenter.com.br" },
+    {
+      "cidade": "Mogi das Cruzes",
+      "link": "mogidascruzes.munizautocenter.com.br"
+    },
+    { "cidade": "Osasco", "link": "osasco.munizautocenter.com.br" },
+    { "cidade": "Ourinhos", "link": "ourinhos.munizautocenter.com.br" },
+    { "cidade": "Praia Grande", "link": "praiagrande.munizautocenter.com.br" },
+    {
+      "cidade": "Presidente Prudente",
+      "link": "presidenteprudente.munizautocenter.com.br"
+    },
+    { "cidade": "Santo André", "link": "santoandre.munizautocenter.com.br" },
+    {
+      "cidade": "São Bernardo do Campo",
+      "link": "saosbernardodocampo.munizautocenter.com.br"
+    },
+    {
+      "cidade": "São José do Rio Preto",
+      "link": "saojosedoriopreto.munizautocenter.com.br"
+    },
+    {
+      "cidade": "São José dos Campos",
+      "link": "saojosedoscampos.munizautocenter.com.br"
+    },
+    { "cidade": "São Miguel", "link": "saomiguel.munizautocenter.com.br" },
+    { "cidade": "São Vicente", "link": "saovicente.munizautocenter.com.br" },
+    { "cidade": "Sorocaba", "link": "sorocaba.munizautocenter.com.br" },
+    { "cidade": "Sumaré", "link": "sumare.munizautocenter.com.br" },
+    { "cidade": "Taubaté", "link": "taubate.munizautocenter.com.br" },
+    { "cidade": "Valinhos", "link": "valinhos.munizautocenter.com.br" },
+    { "cidade": "Votuporanga", "link": "votuporanga.munizautocenter.com.br" },
+    {
+      "cidade": "Caraguatatuba",
+      "link": "caraguatatuba.munizautocenter.com.br"
+    },
+    { "cidade": "Suzano", "link": "suzano.munizautocenter.com.br" },
+    { "cidade": "Americana", "link": "americana.munizautocenter.com.br" },
+    { "cidade": "Santos", "link": "santos.munizautocenter.com.br" },
+    { "cidade": "Cotia", "link": "cotia.munizautocenter.com.br" },
+    { "cidade": "Hortolandia", "link": "hortolandia.munizautocenter.com.br" },
+    {
+      "cidade": "Pindamonhangaba",
+      "link": "pindamonhangaba.munizautocenter.com.br"
+    },
+    { "cidade": "Araçatuba", "link": "aracatuba.munizautocenter.com.br" },
+    { "cidade": "Vila Maria", "link": "vilamaria.munizautocenter.com.br" },
+    { "cidade": "Rio Claro", "link": "rioclaro.munizautocenter.com.br" },
+    { "cidade": "Boituva", "link": "boituva.munizautocenter.com.br" }
+  ],
+  "Tocantins": [
+    { "cidade": "Araguaína", "link": "araguaina.munizautocenter.com.br" },
+    { "cidade": "Palmas", "link": "palmas.munizautocenter.com.br" }
+  ]
+}
