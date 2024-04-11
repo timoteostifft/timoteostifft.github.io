@@ -95,10 +95,12 @@ fetch("./stores.json")
     const closeModal = document.getElementById("close-modal");
 
     openModal1.onclick = () => {
+      set(Object.keys(data));
       modal.style.display = "flex";
     };
 
     openModal2.onclick = () => {
+      set(Object.keys(data));
       modal.style.display = "flex";
     };
 

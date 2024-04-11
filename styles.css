@@ -1098,14 +1098,14 @@ footer #content > p {
 #modal-content > div > span {
   font-family: "MonumentExtended-Regular", sans-serif;
   color: var(--light-red);
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-left: -20px;
 }
 
 #modal-content > div > span::before {
   content: "・";
-  font-size: 2.25rem;
-  line-height: 1.25rem;
+  font-size: 2rem;
+  line-height: 1rem;
   top: 6px;
   right: -8px;
   position: relative;
@@ -1118,7 +1118,7 @@ footer #content > p {
 #modal-content > div > a + a,
 #modal-content > div > span + a {
   margin-top: 6px;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-family: "Montserrat-Semibold", sans-serif;
   text-decoration: none;
   margin-left: 16px;
@@ -1126,6 +1126,20 @@ footer #content > p {
 }
 
 @media (min-width: 480px) {
+  #modal-content > div > a + a,
+  #modal-content > div > span + a {
+    font-size: 1.25rem;
+  }
+
+  #modal-content > div > span {
+    font-size: 1.25rem;
+  }
+
+  #modal-content > div > span::before {
+    font-size: 2.25rem;
+    line-height: 1.25rem;
+  }
+
   main > section:nth-child(1) {
     height: 550px;
   }
