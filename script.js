@@ -18,23 +18,6 @@ for (const button of carouselButtons) {
   });
 }
 
-const modal = document.getElementById("modal");
-const openModal1 = document.getElementById("open-modal1");
-const openModal2 = document.getElementById("open-modal2");
-const closeModal = document.getElementById("close-modal");
-
-openModal1.onclick = () => {
-  modal.style.display = "flex";
-};
-
-openModal2.onclick = () => {
-  modal.style.display = "flex";
-};
-
-closeModal.onclick = () => {
-  modal.style.display = "none";
-};
-
 function sendMail() {
   const name = document.getElementById("name").value;
   const phone = document.getElementById("phone").value;
@@ -106,26 +89,57 @@ function getCookie(name) {
 fetch("./stores.json")
   .then((response) => response.json())
   .then((data) => {
-    const states = Object.keys(data);
+    const modal = document.getElementById("modal");
+    const openModal1 = document.getElementById("open-modal1");
+    const openModal2 = document.getElementById("open-modal2");
+    const closeModal = document.getElementById("close-modal");
 
-    const items = document.getElementById("modal-items");
+    openModal1.onclick = () => {
+      modal.style.display = "flex";
+    };
 
-    for (let i = 0; i < states.length; i++) {
-      const span = document.createElement("span");
-      span.textContent = states[i];
-      items.appendChild(span);
+    openModal2.onclick = () => {
+      modal.style.display = "flex";
+    };
 
-      for (let j = 0; j < data[states[i]].length; j++) {
-        const city = data[states[i]][j].cidade;
-        const link = data[states[i]][j].link;
+    closeModal.onclick = () => {
+      modal.style.display = "none";
+    };
 
-        const a = document.createElement("a");
+    set(Object.keys(data));
 
-        a.textContent = city;
-        a.href = "http://" + link;
-        a.style.color = "black";
+    const tags = document.querySelectorAll(".tag");
 
-        items.appendChild(a);
+    tags.forEach((tag) => {
+      tag.addEventListener("click", () => {
+        const value = tag.getAttribute("value");
+        set([value]);
+        modal.style.display = "flex";
+      });
+    });
+
+    function set(states) {
+      let items = document.getElementById("modal-items");
+
+      items.innerHTML = "";
+
+      for (let i = 0; i < states.length; i++) {
+        const span = document.createElement("span");
+        span.textContent = states[i];
+        items.appendChild(span);
+
+        for (let j = 0; j < data[states[i]].length; j++) {
+          const city = data[states[i]][j].cidade;
+          const link = data[states[i]][j].link;
+
+          const a = document.createElement("a");
+
+          a.textContent = city;
+          a.href = "http://" + link;
+          a.style.color = "black";
+
+          items.appendChild(a);
+        }
       }
     }
   })
