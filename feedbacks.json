@@ -1,0 +1,40 @@
+{
+  "depoimentos": [
+    {
+      "foto": "feedback.png",
+      "nome": "Leandro Garcia",
+      "origem": "Passo Fundo / RS",
+      "comentario": "Equipe nota mil. Presente em todo processo, já obtive retorno sobre o investimento!"
+    },
+    {
+      "foto": "feedback.png",
+      "nome": "Ana",
+      "origem": "Camaquã / RS",
+      "comentario": "Excelente experiência de compra! Produtos de alta qualidade e entrega rápida. Com certeza voltarei a comprar nesta loja."
+    },
+    {
+      "foto": "feedback.png",
+      "nome": "João",
+      "origem": "Porto Alegre / RS",
+      "comentario": "Atendimento ao cliente excepcional! Os funcionários foram muito prestativos e amigáveis. Os produtos também superaram minhas expectativas."
+    },
+    {
+      "foto": "feedback.png",
+      "nome": "Leandro Garcia",
+      "origem": "Tapes / RS",
+      "comentario": "Minha experiência de compra foi impecável. Os produtos chegaram em perfeitas condições e dentro do prazo estabelecido."
+    },
+    {
+      "foto": "feedback.png",
+      "nome": "Sofia",
+      "origem": "Cristal / RS",
+      "comentario": "Loja incrível! Encontrei exatamente o que estava procurando, e o processo de compra foi fácil e tranquilo. Recomendo a todos!"
+    },
+    {
+      "foto": "feedback.png",
+      "nome": "Lucas",
+      "origem": "Passo Fundo / RS",
+      "comentario": "Impressionado com a variedade de produtos disponíveis. Encontrei várias opções que se adequavam às minhas necessidades."
+    }
+  ]
+}

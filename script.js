@@ -146,3 +146,51 @@ fetch("./stores.json")
     }
   })
   .catch((error) => console.error("Erro ao consumir lojas: ", error));
+
+fetch("./feedbacks.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const items = document.getElementById("feedback-items");
+
+    const feedbacks = data.depoimentos;
+
+    for (let i = 0; i < feedbacks.length; i++) {
+      const li = document.createElement("li");
+      const div1 = document.createElement("div");
+
+      const img1 = document.createElement("img");
+      img1.src = "../assets/" + feedbacks[i].foto;
+
+      const div2 = document.createElement("div");
+
+      const img2 = document.createElement("img");
+      img2.src = "../assets/stars.svg";
+
+      const span1 = document.createElement("span");
+      span1.textContent = feedbacks[i].nome;
+
+      const span2 = document.createElement("span");
+      span2.textContent = feedbacks[i].origem;
+
+      const p = document.createElement("p");
+      p.textContent = feedbacks[i].comentario;
+
+      if (i == 0) {
+        li.setAttribute("data-active", "");
+      }
+
+      li.setAttribute("class", "slide");
+
+      div2.appendChild(img2);
+      div2.appendChild(span1);
+      div2.appendChild(span2);
+      div2.appendChild(p);
+
+      div1.appendChild(img1);
+      div1.appendChild(div2);
+
+      li.appendChild(div1);
+      items.appendChild(li);
+    }
+  })
+  .catch((error) => console.error("Erro ao consumir depoimentos: ", error));
