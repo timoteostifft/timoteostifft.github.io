@@ -101,18 +101,27 @@ fetch("./stores.json")
     const openModal2 = document.getElementById("open-modal2");
     const closeModal = document.getElementById("close-modal");
 
+    const search = document.getElementById("search");
+
+    search.addEventListener("input", (e) => {
+      set(Object.keys(data), e.target.value);
+    });
+
     openModal1.onclick = () => {
       set(Object.keys(data));
       modal.style.display = "flex";
+      search.value = "";
     };
 
     openModal2.onclick = () => {
       set(Object.keys(data));
       modal.style.display = "flex";
+      search.value = "";
     };
 
     closeModal.onclick = () => {
       modal.style.display = "none";
+      search.value = "";
     };
 
     set(Object.keys(data));
@@ -127,17 +136,29 @@ fetch("./stores.json")
       });
     });
 
-    function set(states) {
+    function set(states, query) {
       let items = document.getElementById("modal-items");
 
       items.innerHTML = "";
 
       for (let i = 0; i < states.length; i++) {
+        if (query === undefined) {
+          query = "";
+        }
+
+        const containQuery = data[states[i]].filter((item) =>
+          item.cidade.includes(query)
+        );
+
+        if (!containQuery.length) continue;
+
         const span = document.createElement("span");
         span.textContent = states[i];
         items.appendChild(span);
 
         for (let j = 0; j < data[states[i]].length; j++) {
+          if (!data[states[i]][j].cidade.includes(query)) continue;
+
           const city = data[states[i]][j].cidade;
           const link = data[states[i]][j].link;
 
