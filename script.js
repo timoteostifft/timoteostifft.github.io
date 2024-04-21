@@ -40,12 +40,19 @@ function sendMail() {
 
 function sendMessage() {
   const name = document.getElementById("name").value;
-  const message = `Olá%20Muniz,%20me%20chamo%20${name}%20e%20gostaria%20de%20conversar%20com%20um%20consultor.`;
+  const phone = document.getElementById("phone").value;
+
+  if (phone.length < 7) {
+    alert("Por favor, informe um número válido.");
+    return;
+  }
 
   if (name.length < 3) {
     alert("Por favor, informe seu nome.");
     return;
   }
+
+  const message = `Olá%20Muniz,%20me%20chamo%20${name}%20e%20gostaria%20de%20conversar%20com%20um%20consultor.%20Telefone:%20${phone}`;
 
   const link = `https://api.whatsapp.com/send?phone=44998363691&text=${message}`;
 
