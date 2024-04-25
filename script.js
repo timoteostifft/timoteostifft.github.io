@@ -147,7 +147,7 @@ fetch("./stores.json")
         }
 
         const containQuery = data[states[i]].filter((item) =>
-          item.cidade.includes(query)
+          item.cidade.toLowerCase().includes(query.toLowerCase())
         );
 
         if (!containQuery.length) continue;
@@ -157,7 +157,12 @@ fetch("./stores.json")
         items.appendChild(span);
 
         for (let j = 0; j < data[states[i]].length; j++) {
-          if (!data[states[i]][j].cidade.includes(query)) continue;
+          if (
+            !data[states[i]][j].cidade
+              .toLowerCase()
+              .includes(query.toLowerCase())
+          )
+            continue;
 
           const city = data[states[i]][j].cidade;
           const link = data[states[i]][j].link;
